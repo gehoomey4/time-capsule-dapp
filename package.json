@@ -3,14 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --webpack",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@rainbow-me/rainbowkit": "^2.2.10",
     "@swc/helpers": "^0.5.17",
-    "@tanstack/react-query": "^5.90.12",
+    "@tanstack/react-query": "^5.90.15",
     "caniuse-lite": "^1.0.30001761",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.26",
@@ -21,7 +22,7 @@
     "sonner": "^2.0.7",
     "tailwind-merge": "^3.4.0",
     "viem": "^2.43.3",
-    "wagmi": "^3.1.0"
+    "wagmi": "^2.19.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
